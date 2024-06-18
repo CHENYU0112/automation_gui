@@ -1,0 +1,13 @@
+Release 1.0.3 (2022-07-25)
+    - dongle function on init having the same name of dongle lib was causing issues. It was renamed to dongles.
+Release 1.0.2 (2022-07-19)
+    - Scope MSO58B added.
+    - Scope MSO5204 bug fixed
+    - Variable used before assigned fixed
+    - Keithley reading speed changed. For devices with high noise level it was causing issues on efficiency.
+Release 1.00.00 (2022-06-01)
+    - Power Stage and POL Efficiency GUI.
+    - The report generation is still not complete. The test will generate a folder with images and an excel file with
+    the data collected.
+    - It collects data for efficiency and also Gate Low CdVdt max, SW ringing Frequency, dead times, rise and fall
+    times.

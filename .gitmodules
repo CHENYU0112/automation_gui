@@ -1,0 +1,3 @@
+[submodule "pverifyDrivers"]
+	path = pverifyDrivers
+	url = https://bitbucket.vih.infineon.com/scm/pssdcdce/pverifydrivers.git
