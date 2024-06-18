@@ -20,6 +20,8 @@ def run():
     tab0Canvas.create_window((0,0), window=tab0Frame, anchor='nw')
     
     
+    
+    
     #endregion
 
     #region TAB 1
@@ -31,6 +33,9 @@ def run():
     tab1Canvas.pack(fill=tk.BOTH, expand=True)
     tab1Frame = efficiencyframe.EffFrame(tab1Canvas)
     tab1Canvas.create_window((0, 0), window=tab1Frame, anchor='nw')
+    
+    
+    
     #endregion
 
     # region TAB 2
