@@ -18,6 +18,8 @@ def run():
     # 0 - PSapp; 1 - POLapp
     tab0Frame = instruments.Instruments(tab0Canvas, 0)
     tab0Canvas.create_window((0,0), window=tab0Frame, anchor='nw')
+    
+    
     #endregion
 
     #region TAB 1
